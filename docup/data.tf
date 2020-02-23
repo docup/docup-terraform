@@ -23,7 +23,7 @@ data "google_iam_policy" "iap_app_engine_api_web_app_user" {
   binding {
     role = "roles/iap.httpsResourceAccessor"
     members = [
-      "965242496332-compute@developer.gserviceaccount.com",
+      "serviceAccount:965242496332-compute@developer.gserviceaccount.com",
     ]
   }
 }
