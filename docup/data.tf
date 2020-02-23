@@ -19,7 +19,7 @@ data "google_iam_policy" "editor" {
   }
 }
 
-data "google_iam_policy" "iap_secured_web_app_user" {
+data "google_iam_policy" "iap_app_engine_api_web_app_user" {
   binding {
     role = "roles/iap.httpsResourceAccessor"
     members = [
