@@ -3,6 +3,6 @@ provider "google" {
   project     = var.project_id
   region      = "asia-northeast1"
 
-  version = "~> 2.5"
+  version = "~> 3.9.0"
 }
 
